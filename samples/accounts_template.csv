@@ -1,0 +1,4 @@
+username,display_name,account_type,enabled,privileged,groups,mfa_enabled,mfa_method,last_login_days,created_days,employment_status,mailbox_enabled,interactive_login,password_age_days,last_access_review_days
+jdoe,Jane Doe,user,true,false,Staff,true,app_push,2,400,active,true,,,
+adm-jdoe,Jane Doe (admin),admin,true,true,Domain Admins,true,fido2,5,400,active,false,,,30
+svc-backup,Backup service,service,true,false,Backup Operators,,,1,900,,false,false,120,30

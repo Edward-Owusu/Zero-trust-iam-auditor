@@ -1,0 +1,23 @@
+username,display_name,account_type,enabled,privileged,groups,mfa_enabled,mfa_method,last_login_days,created_days,employment_status,mailbox_enabled,interactive_login,password_age_days,last_access_review_days
+j.miller,Jim Miller (IT manager),user,true,false,Domain Admins;Staff,false,none,1,2100,active,true,true,,400
+it.admin,IT admin (shared),shared,true,true,Domain Admins,false,none,0,2900,,false,true,,
+a.nguyen,Anh Nguyen,user,true,false,Staff;Finance,true,app_push,2,700,active,true,,,
+r.patel,Ravi Patel,user,true,false,Staff;Purchasing,false,none,4,1300,active,true,,,
+s.okafor,Sade Okafor,user,true,false,Staff;HR,true,sms,1,500,active,true,,,
+m.garcia,Maria Garcia,user,true,false,Staff;Sales,true,app_push,7,820,active,true,,,
+t.brooks,Tom Brooks,user,true,false,Staff;Production,false,none,212,1500,leave,true,,,
+k.lee,Kim Lee,user,true,false,Staff;Quality,true,totp,3,300,active,true,,,
+d.harris,Dan Harris,user,true,false,Staff;Production,true,sms,10,1100,terminated,true,,,
+l.chen,Lin Chen,user,true,false,Staff;Engineering,true,app_push,1,260,active,true,,,
+p.wright,Paula Wright,user,true,false,Staff,,,never,95,active,true,,,
+b.ortiz,Ben Ortiz,user,true,false,Staff;Shipping,true,app_push,6,450,active,true,,,
+e.adams,Emma Adams (controller),user,true,false,Administrators;Finance,true,sms,2,1900,active,true,,,200
+floor.kiosk,Shop floor kiosk,shared,true,false,Staff,false,none,0,1700,,false,true,,
+frontdesk,Front desk,shared,true,false,Staff,false,none,1,1600,,true,true,,
+contractor.hv,HVAC vendor,guest,true,true,Domain Admins,true,sms,140,600,,false,true,,
+erp.consultant,ERP consultant,guest,true,false,ERP Users,true,app_push,30,180,,false,true,,
+svc-backup,Backup service,service,true,false,Backup Operators,,,0,2400,,false,true,1900,
+svc-erp,ERP database service,service,true,true,Domain Admins,,,0,2600,,false,true,2600,700
+svc-scanner,Copier scan-to-folder,service,true,false,Staff,,,1,1400,,false,false,1400,
+former.emp1,Former employee,user,false,false,Staff,false,none,400,2000,terminated,false,,,
+svc-oldftp,Old FTP service,service,false,false,,,,900,3000,,false,true,3000,

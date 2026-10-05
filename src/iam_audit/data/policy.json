@@ -1,0 +1,16 @@
+{
+  "_comment": "Organization-defined parameters. Copy this file, adjust the values, and pass it with --policy.",
+  "inactivity_days": 90,
+  "never_used_grace_days": 30,
+  "service_password_max_age_days": 365,
+  "privileged_review_max_days": 90,
+  "max_privileged_ratio": 0.10,
+  "min_privileged_allowance": 2,
+  "privileged_groups": [
+    "Domain Admins", "Enterprise Admins", "Schema Admins", "Administrators",
+    "Account Operators", "Backup Operators", "Server Operators",
+    "Global Administrator", "Privileged Role Administrator", "Security Administrator",
+    "Exchange Administrator", "User Administrator"
+  ],
+  "phishing_resistant_methods": ["fido2", "certificate", "windows_hello"]
+}

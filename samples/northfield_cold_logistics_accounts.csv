@@ -1,0 +1,22 @@
+username,display_name,account_type,enabled,privileged,groups,mfa_enabled,mfa_method,last_login_days,created_days,employment_status,mailbox_enabled,interactive_login,password_age_days,last_access_review_days
+l.chen,Lin Chen (IT lead),user,true,false,Staff;IT,true,fido2,1,900,active,true,false,,
+adm-lchen,Lin Chen (admin),admin,true,true,Domain Admins;Global Administrator,true,fido2,2,880,active,false,false,,30
+adm-kadeyemi,Kofi Adeyemi (admin),admin,true,true,Server Operators,true,certificate,6,640,active,false,false,,30
+k.adeyemi,Kofi Adeyemi,user,true,false,Staff;IT,true,fido2,1,650,active,true,false,,
+p.ward,Pat Ward,user,true,false,Staff;Dispatch,true,app_push,2,700,active,true,false,,
+d.romero,Diego Romero,user,true,false,Staff;Warehouse,true,app_push,1,520,active,true,false,,
+h.kim,Hana Kim,user,true,false,Staff;Finance,true,windows_hello,12,430,active,true,false,,
+e.mensah,Esi Mensah,user,true,false,Staff;Quality,true,app_push,3,380,active,true,false,,
+c.foster,Chris Foster,user,true,false,Staff;Warehouse,true,totp,6,360,active,true,false,,
+b.silva,Bruna Silva,user,true,false,Staff;Dispatch,true,app_push,2,300,active,true,false,,
+n.ali,Nadia Ali,user,true,false,Staff;HR,true,app_push,9,290,active,true,false,,
+g.hughes,Gary Hughes,user,true,false,Staff;Warehouse,true,app_push,1,240,active,true,false,,
+r.osei,Rita Osei,user,true,false,Staff;Sales,true,app_push,4,210,active,true,false,,
+m.duarte,Marco Duarte,user,true,false,Staff;Maintenance,true,app_push,5,160,active,true,false,,
+t.nguyen,Tuan Nguyen,user,true,false,Staff;Warehouse,true,app_push,3,120,active,true,false,,
+j.baker,Jo Baker,user,true,false,Staff;Dispatch,true,totp,never,6,active,true,false,,
+s.patel,Sana Patel,user,true,false,Staff;Finance,true,app_push,2,95,active,true,false,,
+wms.vendor,WMS vendor support,guest,true,false,WMS Support,true,fido2,20,330,,false,false,,
+svc-wms,Warehouse management service,service,true,false,WMS Service,,,0,800,,false,false,25,
+svc-refrig,Refrigeration monitoring service,service,true,false,OT Monitoring,,,0,800,,false,false,410,
+old.temp,Seasonal worker,user,false,false,Staff,true,app_push,300,500,terminated,false,false,,

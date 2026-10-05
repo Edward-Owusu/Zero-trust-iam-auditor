@@ -1,0 +1,18 @@
+{
+  "catalog": "NIST SP 800-53 Revision 5 (identity subset)",
+  "baseline_source": "NIST SP 800-53B",
+  "note": "Titles follow NIST SP 800-53 Rev. 5. Verify baseline membership against the official publication before formal use.",
+  "controls": [
+    {"id": "AC-2",    "title": "Account Management", "baselines": ["low", "moderate", "high"]},
+    {"id": "AC-2(3)", "title": "Account Management | Disable Accounts", "baselines": ["moderate", "high"]},
+    {"id": "AC-6",    "title": "Least Privilege", "baselines": ["moderate", "high"]},
+    {"id": "AC-6(2)", "title": "Least Privilege | Non-privileged Access for Nonsecurity Functions", "baselines": ["moderate", "high"]},
+    {"id": "AC-6(5)", "title": "Least Privilege | Privileged Accounts", "baselines": ["moderate", "high"]},
+    {"id": "AC-6(7)", "title": "Least Privilege | Review of User Privileges", "baselines": ["moderate", "high"]},
+    {"id": "IA-2",    "title": "Identification and Authentication (Organizational Users)", "baselines": ["low", "moderate", "high"]},
+    {"id": "IA-2(1)", "title": "Identification and Authentication | Multi-factor Authentication to Privileged Accounts", "baselines": ["low", "moderate", "high"]},
+    {"id": "IA-2(2)", "title": "Identification and Authentication | Multi-factor Authentication to Non-privileged Accounts", "baselines": ["low", "moderate", "high"]},
+    {"id": "IA-5",    "title": "Authenticator Management", "baselines": ["low", "moderate", "high"]},
+    {"id": "PS-4",    "title": "Personnel Termination", "baselines": ["low", "moderate", "high"]}
+  ]
+}

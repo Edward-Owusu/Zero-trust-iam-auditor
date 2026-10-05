@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "iam_audit: Zero Trust Identity and Access Audit for Small and Mid-Sized Organizations"
+authors:
+  - family-names: Owusu
+    given-names: Edward
+version: 0.1.0
+date-released: 2026-10-05
+license: MIT
+repository-code: "https://github.com/Edward-Owusu/zero-trust-iam-auditor"
+keywords:
+  - zero trust
+  - identity and access management
+  - NIST SP 800-53
+  - CISA Zero Trust Maturity Model
+  - multi-factor authentication
+  - small business
+  - critical infrastructure
