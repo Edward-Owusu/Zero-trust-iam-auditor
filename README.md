@@ -2,6 +2,8 @@
 
 [![tests](https://github.com/Edward-Owusu/zero-trust-iam-auditor/actions/workflows/tests.yml/badge.svg)](https://github.com/Edward-Owusu/zero-trust-iam-auditor/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23167739.svg)](https://doi.org/10.5281/zenodo.23167739)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://zero-trust-iam-auditor.streamlit.app)
 
 An open-source tool that audits an organization's user, admin, service, and guest accounts against **Zero Trust identity practices**. It finds the identity gaps attackers rely on most, such as missing or phishable MFA, accounts of departed staff, forgotten and unused accounts, standing administrator rights, and misused service accounts. Every finding is mapped to **NIST SP 800-53 Rev. 5** controls and to the **CISA Zero Trust Maturity Model** Identity pillar.
 
@@ -63,6 +65,8 @@ Open the HTML file in the `reports` folder for the full report. Pre-generated re
 pip install -r requirements.txt
 streamlit run app/streamlit_app.py
 ```
+
+Try the hosted version at https://zero-trust-iam-auditor.streamlit.app, or run it locally:
 
 ### Use in automation
 
