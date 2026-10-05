@@ -5,9 +5,10 @@ authors:
   - family-names: Owusu
     given-names: Edward
 version: 0.1.0
+doi: 10.5281/zenodo.23167739
 date-released: 2026-10-05
 license: MIT
-repository-code: "https://github.com/Edward-Owusu/zero-trust-iam-auditor"
+repository-code: "https://github.com/Edward-Owusu/Zero-trust-iam-auditor"
 keywords:
   - zero trust
   - identity and access management
@@ -16,3 +17,4 @@ keywords:
   - multi-factor authentication
   - small business
   - critical infrastructure
+  
