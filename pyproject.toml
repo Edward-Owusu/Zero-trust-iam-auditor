@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "iam-audit"
-version = "0.1.0"
+version = "0.2.0"
 description = "Zero Trust identity and access audit mapped to NIST SP 800-53 and the CISA Zero Trust Maturity Model"
 readme = "README.md"
 requires-python = ">=3.10"

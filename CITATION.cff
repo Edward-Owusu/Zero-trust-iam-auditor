@@ -4,9 +4,9 @@ title: "iam_audit: Zero Trust Identity and Access Audit for Small and Mid-Sized 
 authors:
   - family-names: Owusu
     given-names: Edward
-version: 0.1.0
+version: 0.2.0
 doi: 10.5281/zenodo.23167739
-date-released: 2026-10-05
+date-released: 2026-11-15
 license: MIT
 repository-code: "https://github.com/Edward-Owusu/Zero-trust-iam-auditor"
 keywords:
